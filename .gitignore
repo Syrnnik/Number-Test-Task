@@ -1,0 +1,11 @@
+# Credentials
+credentials.json
+
+# IDE dirs
+.vscode/
+__pycache__/
+
+# Test files
+*test*
+
+node_modules/
