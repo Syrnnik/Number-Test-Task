@@ -1,0 +1,8 @@
+gspread
+flask
+psycopg2
+requests
+configparser
+flask_cors
+pyTelegramBotAPI
+uuid
