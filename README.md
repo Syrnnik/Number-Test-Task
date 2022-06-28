@@ -13,7 +13,7 @@ $ sudo apt install python3 python3-pip
 ## Install Python 3 requirements
 To install requirements, go to the **applications** folder, then the `server` folder and run the installation of packages from the file `requirements.txt`:
 ```
-$ git clone https://github.com/Syrnnik/Number-Test-Task
+$ git clone https://github.com/Syrnnik/Number-Test-Task.git
 $ cd Number-Test-Task/server/
 $ pip3 install -r requirements.txt
 ...
