@@ -15,11 +15,12 @@ $ sudo apt install postgresql
 ## Configure PostgreSQL users
 ```
 $ sudo -i -u postgres psql
-$ createdb <db_name>;
+$ create database <db_name>;
 $ create user <user_name> password '<user_password>';
 $ GRANT ALL PRIVILEGES ON DATABASE <db_name> TO <user_name>;
 $ \q
 ```
+**Remember `<db_name>`, `<user_name>` and `<user_password>`.**
 
 ## Install Python 3 requirements
 <!-- To install requirements, go to the **applications** folder, then the `server` folder and run the installation of packages from the file `requirements.txt`: -->
@@ -62,6 +63,7 @@ $ nano googleConf.ini
 ```
 $ python3 WebServer.py
 ```
+**Now, if new orders appear in the database and their deadline expires, the bot will notify you about it.**
 
 ## Telegram Bot (https://t.me/numbers_orders_bot)
 You can subscribe to notifications about not actual orders.
