@@ -15,7 +15,7 @@ $ sudo apt install postgresql
 ## Configure PostgreSQL users
 ```
 $ sudo -i -u postgres psql
-$ createdb <db_name>
+$ createdb <db_name>;
 $ create user <user_name> password '<user_password>';
 $ GRANT ALL PRIVILEGES ON DATABASE <db_name> TO <user_name>;
 $ \q
