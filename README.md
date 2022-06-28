@@ -1,4 +1,5 @@
 # Installation
+Url to Google Sheet - https://docs.google.com/spreadsheets/d/1t_WUuGUNC9MpVdG2y-4tgSo7QYY_vIaDWlehcAuz5L4
 
 ## Install Python 3 and pip
 ```
@@ -23,7 +24,6 @@ $ \q
 **Remember `<db_name>`, `<user_name>` and `<user_password>`.**
 
 ## Install Python 3 requirements
-<!-- To install requirements, go to the **applications** folder, then the `server` folder and run the installation of packages from the file `requirements.txt`: -->
 ```
 $ git clone https://github.com/Syrnnik/Number-Test-Task.git
 $ cd Number-Test-Task/server/
@@ -31,7 +31,6 @@ $ pip3 install -r requirements.txt
 ```
 
 ## Configure PostgreSQL connection
-<!-- To configure the PostgreSQL connection, go to the **applications** folder, then to the `server` folder and edit the `googleConf.ini` file: -->
 ```
 $ nano googleConf.ini
 ```
@@ -59,14 +58,13 @@ $ nano googleConf.ini
 ### **Save changes and exit `nano`**
 
 # Run app
-<!-- To run, go to the **applications** folder, then to the `server` folder and run `WebServer.py` script: -->
 ```
 $ python3 WebServer.py
 ```
-**Now, if new orders appear in the database and their deadline expires, the bot will notify you about it.**
 
 ## Telegram Bot (https://t.me/numbers_orders_bot)
 You can subscribe to notifications about not actual orders.
+Now, if new orders appear in the database and their deadline expires, the bot will notify you about it.
 
 | **command** |                  **description**                   |
 | :---------: | :------------------------------------------------: |
